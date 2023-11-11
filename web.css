@@ -1,0 +1,37 @@
+nav{
+    background-color: #D1D1F4;
+    font-family: Arial;
+    text-align: center;
+}
+
+nav a {
+    padding: 20px 100px;
+    display: inline-block;
+    font-size: 30px;
+}
+
+nav a:hover {
+    background-color: #a8a8da;
+    color: blue
+}
+
+.img01{
+    border-radius: 50%;
+    float:left;
+    margin: 25px 55px;
+    width: 250px;
+    height: 250px;
+}
+.card01{
+    background-color: #D1D1F4;
+    padding-bottom: 40px; 
+}
+
+.title01{
+    font-family: 標楷體;
+    margin: 55px 65px;
+}
+.txt01{
+    font-size: 35px;
+    margin: 120px 400px;
+}

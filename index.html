@@ -5,64 +5,131 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="web.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Noto+Serif+TC:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav>
-        <a href="#">profile</a>
-        <a href="#">experience</a>
-        <a href="#">skills</a>
-        <a href="#">information</a>
+        <a href="#card01">profile</a>
+        <a href="#card02">experience</a>
+        <a href="#card03">skills</a>
+        <a href="#card04">information</a>
     </nav>
     <main>
-        <section>
-            <div class="card01">
-                <span class="title01">個人簡介</span> <span clas="title02">My profile</span>
+        <section >
+            <div class="card01" id="card01">
+                <span class="title01">個人簡介</span> <span class="title02"><h1>My profile</h1></span>
                 <h1>
                 <img class="img01" src="image/profile.jpg"/>
                 </h1>   
                 <div class="txt01">
                     <ul>
-                        <li>謝皓丞</li>
-                        <li>2004.05.30</li>
-                        <li>中原大學資管系</li>
-                        <li>行動比計畫更實際</li>
+                        <li>．謝皓丞</li>
+                        <li>．2004.05.30</li>
+                        <li>．中原大學資管系</li>
+                        <li>．行動比計畫更實際</li>
                     </ul>
                 </div>
             </div>
         </section>
 
         <section>
-            <div class="card02">
-                <h2 class="title01">個人經歷 Experience</h2> 
+            <div class="card02" id="card02">
+                <div class="exp01">
+                <span class="title01">個人經歷</span> <span class="title02"><h1>Experience</h1></span>      
+                    <h1>
+                    <div class="exp02">
+                        <div class="exp_allimg01">
+                            <img class="img02" src="image/elementary.jpg"/>
+                                <div class="txt02">國小</div>
+                        </div>
+                        <div class="exp_allimg01">
+                            <img class="img02" src="image/junior.jpg"/>
+                                <div class="txt02">國中</div>
+                        </div>
+                        <div class="exp_allimg01">
+                            <img class="img02" src="image/high school.jpg"/>
+                                <div class="txt02">高中</div>
+                        </div>
+                        <div class="exp_allimg01">
+                            <img class="img02" src="image/college.jpg"/> 
+                                <div class="txt02">大學</div>
+                        </div>
+                    </div>
+                    </h1>
+                        
+                    <div class="activity">
+                        <span class="title03">課程活動</span>          
+                        <div class="txt03">
+                            <ul>
+                                <li>鋼琴檢定九級</li>
+                                <li>高中聖歌比賽優勝</li>
+                                <img class="img03" src="image/activity.jpg"/>
+                            </ul> 
+                        </div>
+                    </div>
 
 
+                    <div class="work">
+                        <span class="title03">工作經驗</span>
+                        <div class="txt03">
+                            <ul>
+                                <li>補習班助教</li>
+                                <li>工廠生產線員工</li>
+                                <li>運動用品店銷售員</li>
+                                <img class="img03" src="image/work.jpg"/>
+                            </ul>
 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="card01"  id="card03">
+                <span class="title01">專業技能</span> <span class="title02"><h1>Skills</h1></span>
+                <div>
+                    <ul class="skills_width">
+                        <li class="java">Java<span>  55%</span></li>
+                        <li class="html">Html<span>  70%</span></li>
+                        <li class="css">Css<span>  65%</span></li>
+                    </ul>
+                </div>
 
 
             </div>
         </section>
 
         <section>
-            <div class="card01">
-                <h2 class="title01">專業技能 Skills</h2>
-
-
-
-
+            <div class="card02" id="card04">
+                <span class="title01">聯絡資訊</span> <span class="title02"><h1>Information</h1></span>
+            <div class="inform_align">
+                <div class="inform">
+                    <a href="https://www.instagram.com/h.c.hsieh_/" target="_blank">
+                        <img class="ins" src="image/ins logo.jpg" alt="Description of the image" >
+                    </a>  
+                </div>
+                <div class="inform">
+                    <a href="https://line.me/ti/p/qb3AoElEPt" target="_blank">
+                        <img  class="line" src="image/line logo.jpg" alt="Description of the image">
+                    </a>
+                </div>
+                <div class="inform">
+                    <a href="mailto:kelvinhsieh28@gmail.com">
+                        <img class="gmail" src="image/gmail logo.jpg" alt="Description of the image">
+                    </a>
+                </div>
             </div>
-        </section>
-
-        <section>
-            <div class="card02">
-                <h2 class="title01">聯絡資訊 Information</h2>
-
-
-
-
             </div>
         </section>
 
     </main>
+
     <footer ><h5>copyright@</h5></footer>
 
 </body>

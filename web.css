@@ -34,6 +34,15 @@ nav a:hover {
     border-radius: 50%;
     float:left;
     margin: 120px -100px;
+<<<<<<< HEAD
+=======
+    width: 250px;
+    height: 250px;
+}
+
+.img02{
+    border-radius: 50%;
+>>>>>>> 5ba7034c9f1ada2d6920dd14f15114f02bed9e88
     width: 250px;
     height: 250px;
 }
@@ -68,16 +77,27 @@ nav a:hover {
 }
 
 .title01{
+<<<<<<< HEAD
     font-family: 'Noto Serif TC', serif;
+=======
+    font-family: 標楷體;
+>>>>>>> 5ba7034c9f1ada2d6920dd14f15114f02bed9e88
     font-size: 50px;
     margin-left: 80px;
     margin-top: 20px;
     float: left;
+<<<<<<< HEAD
 
 }
 
 .title02{
     font-family: 'Fira Sans', sans-serif;
+=======
+}
+
+.title02{
+    font-family: Arial;
+>>>>>>> 5ba7034c9f1ada2d6920dd14f15114f02bed9e88
     margin-left: 80px;
     font-size: 15px;
 
@@ -85,7 +105,11 @@ nav a:hover {
 
 .title03{
     font-family: 標楷體;
+<<<<<<< HEAD
     font-size: 40px;
+=======
+    font-size: 30px;
+>>>>>>> 5ba7034c9f1ada2d6920dd14f15114f02bed9e88
     margin-left: 120px;
     margin-top: 60px;
 }
@@ -95,8 +119,13 @@ nav a:hover {
     font-size: 35px;
     margin: 120px 500px;
     line-height: 200%;
+<<<<<<< HEAD
     border: 3px solid white;
     border-radius: 30px 30px;
+=======
+    border: 1px solid;
+    border-radius: 30px 10px;
+>>>>>>> 5ba7034c9f1ada2d6920dd14f15114f02bed9e88
 }
 
 .txt01 li{
@@ -113,8 +142,13 @@ nav a:hover {
 
 .txt03{
     font-family: 標楷體;
+<<<<<<< HEAD
     font-size: 35px;
     margin: 30px 160px;
+=======
+    font-size: 25px;
+    margin: 20px 160px;
+>>>>>>> 5ba7034c9f1ada2d6920dd14f15114f02bed9e88
     line-height: 200%;
     list-style: none;
 }
@@ -125,6 +159,11 @@ nav a:hover {
     margin-left: 300px;
     margin-top: 60px;
     line-height: 400%;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 5ba7034c9f1ada2d6920dd14f15114f02bed9e88
 }
 
 .exp_allimg01{
@@ -135,6 +174,7 @@ nav a:hover {
 .exp02{
     display: flex;
     width: 100px;
+<<<<<<< HEAD
 }
 
 
@@ -147,6 +187,9 @@ nav a:hover {
     border: 3px solid white;
     border-radius: 30px 30px;
     margin:60px;
+=======
+
+>>>>>>> 5ba7034c9f1ada2d6920dd14f15114f02bed9e88
 }
 
 .inform_align{

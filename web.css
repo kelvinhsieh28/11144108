@@ -3,13 +3,14 @@
     margin: 0px;
 }
 body{
-    background-color: rgb(230, 233, 233);
+    background-image: url(image/bodybackground.jpg);
     margin:0px;
 }
 
 footer{
     text-align: center;
-    padding: 10px;
+    padding: 2%;
+    background-color: rgb(213, 215, 215);;
 }
 
 nav{
@@ -19,15 +20,21 @@ nav{
 }
 
 nav a {
-    padding: 40px 100px;
+    padding: 2% 5%;
     display: inline-block;
     font-size: 30px;
     color: #7ca3f6;
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+
 }
 
 nav a:hover {
-    background-color: rgb(230, 233, 233);
+    background-color: rgb(213, 215, 215);
     color:rgb(58, 52, 132);
+    border-radius: 50px;
+    text-decoration: underline;
+
 }
 
 .img01{
@@ -45,8 +52,8 @@ nav a:hover {
 }
 
 .img03{
-    width:225px;
-    height: 225px;
+    width:250px;
+    height: 250px;
     margin-top: -17%;
     border-radius: 20px 20px;
     animation-name: img03;
@@ -73,6 +80,14 @@ nav a:hover {
     }
 }
 
+.card_title{
+    background-image: url(image/title\ background.jpg);
+    background-size: cover;
+    padding: 4%;
+    word-spacing: 10px;
+
+}
+
 .card01{
     background-color: #D1D1F4;
     margin-left: 5%;
@@ -91,6 +106,13 @@ nav a:hover {
     margin-top: 2%;
 }
 
+.title_txt{
+    text-align: center;
+    font-size: 50px;
+    padding: 0%;
+    font-family: 'Fira Sans', sans-serif;
+}
+
 .title01{
     font-family: 'Noto Serif TC', serif;
     font-size: 50px;
@@ -104,7 +126,7 @@ nav a:hover {
     font-family: 'Fira Sans', sans-serif;
     margin-left: 80%;
     margin-top: 2%;
-    font-size: 15px;
+    font-size: 20px;
 
 }
 
@@ -155,6 +177,37 @@ nav a:hover {
     justify-content: space-between;
 }
 
+.txt04{
+    font-family:'Noto Serif TC', serif;
+    margin-top: 2%;
+    margin-left: 0%;
+    margin-right: 5%;
+    font-size: 25px;
+}
+
+.txt041{
+    font-family: 'Noto Serif TC', serif;
+    margin-top: 2%;
+    margin-right: 3%;
+    margin-left: -2%;
+    font-size: 25px;
+}
+
+.txt042{
+    font-family: 'Noto Serif TC', serif;
+    margin-top: 2%;
+    margin-right: 0%;
+    font-size: 25px;
+}
+
+.skill3{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 3%;
+}
+
+
+
 
 .exp_allimg01{
     width:200px;
@@ -203,7 +256,7 @@ nav a:hover {
     width: 100%;
     justify-content: space-around;
     margin-left:3%;
-    margin-top: 5%;
+    margin-top: 8%;
 }
 
 .inform{
@@ -211,22 +264,22 @@ nav a:hover {
 }
 .line{
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     margin-right: 20px;
 }
 
 .gmail{
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     margin-right: 20px;
 }
 
 .ins{
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     margin-right: 20px;
 }
 
@@ -236,7 +289,7 @@ nav a:hover {
     font-size: 18px;
     border-radius: 30px;
     font-family: 標楷體;
-    margin: 7%;
+    margin: 10%;
 }
 
 .skills_width{
@@ -244,6 +297,7 @@ nav a:hover {
     font-weight: bold;
     margin-left: 5%;
     line-height: 300%;
+
 }
 .skills_width li::before,
 .skills_width li::after {
@@ -319,111 +373,6 @@ nav a:hover {
 
 }
 
-.skills_border{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-}
-
-.attend_circle{
-    --width: 200px;
-    --percent: 90;
-    --deg: calc(360deg * calc(var(--percent) / 100));
-    width: var(--width);
-    height: var(--width);
-    border-radius: 50%;
-    margin: 0px auto;
-    background-image: conic-gradient(#5D9389 var(--deg), #D9D4CF var(--deg));
-    position: relative;
-    font-weight: bold;
-}
-
-.attend_inside{
-    --bar-width: 30px;
-    position: absolute;
-    display: flex;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    background: #eee;
-    width: calc(var(--width) - var(--bar-width));
-    height: calc(var(--width) - var(--bar-width));
-    align-items: center;
-    justify-content: center;
-    font-size: 32px;
-}
-
-.pass_circle{
-    --width: 200px;
-    --percent: 5;
-    --deg: calc(360deg * calc(var(--percent) / 100));
-    width: var(--width);
-    height: var(--width);
-    border-radius: 50%;
-    margin: 0px auto;
-    background-image: conic-gradient(#5D9389 var(--deg), #D9D4CF var(--deg));
-    position: relative;
-    font-weight: bold;
-}
-
-.pass_inside{
-    --bar-width: 30px;
-    position: absolute;
-    display: flex;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    background: #eee;
-    width: calc(var(--width) - var(--bar-width));
-    height: calc(var(--width) - var(--bar-width));
-    align-items: center;
-    justify-content: center;
-    font-size: 32px;
-}
-
-.late_circle{
-    --width: 200px;
-    --percent: 25;
-    --deg: calc(360deg * calc(var(--percent) / 100));
-    width: var(--width);
-    height: var(--width);
-    border-radius: 50%;
-    margin: 0px auto ;
-    background-image: conic-gradient(#5D9389 var(--deg), #D9D4CF var(--deg));
-    position: relative;
-    font-weight: bold;
-}
-.late_inside{
-    --bar-width: 30px;
-    position: absolute;
-    display: flex;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    background: #eee;
-    width: calc(var(--width) - var(--bar-width));
-    height: calc(var(--width) - var(--bar-width));
-    align-items: center;
-    justify-content: center;
-    font-size: 32px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .circle-wrap {
     display: grid;
     grid-template-columns: repeat(1, 160px);
@@ -432,7 +381,7 @@ nav a:hover {
     margin-left: 50px;
     width: 150px;
     height: 150px;
-    background: #d9d7da;
+    background-color: rgb(226, 226, 226);
     border-radius: 50%;
 
 }
@@ -456,30 +405,35 @@ nav a:hover {
     width: 124px;
     height: 124px;
     border-radius: 50%;
-    background: #ACACAC;
+    background:rgb(185, 185, 185);
     line-height: 120px;
     text-align: center;
     margin-top: 13px;
     margin-left: 13px;
-    color: white;
+    color: black;
     position: absolute;
     z-index: 100;
     font-weight: 700;
     font-size: 2em;
 }
 
-/* color animation */
+.skill2{
+    display: flex;
+    justify-content: space-around;
+}
 
-.mask .fill-1 {
+.mask .fill-1 ,
+.mask .fill-2 ,
+.mask .fill-3{
     clip: rect(0px, 75px, 150px, 0px);
-    background-color: #DBE3E6;
+    background-color: #5D9389;;
 }
 
 .mask.full-1,
 .circle .fill-1 {
     animation: fill-1 ease-in-out 3s;
-    transform: rotate(153deg);
     animation-iteration-count: infinite;
+    transform: rotate(162deg);
 }
 
 @keyframes fill-1 {
@@ -488,22 +442,17 @@ nav a:hover {
     }
 
     100% {
-        transform: rotate(153deg);
+        transform: rotate(162deg);
+
     }
 }
 
-/* 2nd bar */
-
-.mask .fill-2 {
-    clip: rect(0px, 75px, 150px, 0px);
-    background-color: #3F5259;
-}
 
 .mask.full-2,
 .circle .fill-2 {
     animation: fill-2 ease-in-out 3s;
     animation-iteration-count: infinite;
-    transform: rotate(162deg);
+    transform: rotate(18deg);
 }
 
 @keyframes fill-2 {
@@ -512,9 +461,40 @@ nav a:hover {
     }
 
     100% {
-        transform: rotate(162deg);
+        transform: rotate(18deg);
+
     }
 }
+
+
+.mask.full-3,
+.circle .fill-3 {
+    animation: fill-3 ease-in-out 3s;
+    animation-iteration-count: infinite;
+    transform: rotate(45deg);
+}
+
+@keyframes fill-3 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(45deg);
+
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

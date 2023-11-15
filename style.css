@@ -108,9 +108,9 @@ nav a:hover {
 
 .title_txt{
     text-align: center;
-    font-size: 50px;
+    font-size: 100px;
     padding: 0%;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Caveat', cursive;
 }
 
 .title01{
@@ -229,15 +229,11 @@ nav a:hover {
     transform:scale(1.2,1.2);
 }
 
-
-
-
-
 .exp02{
     display: flex;
     width: 100%;
     justify-content: space-around;
-    margin-left:0%;
+    margin-left:2%;
     margin-top: 5%;
 }
 
@@ -262,6 +258,7 @@ nav a:hover {
 .inform{
     padding-right: 5%;
 }
+
 .line{
     border-radius: 50%;
     width: 150px;
@@ -485,39 +482,6 @@ nav a:hover {
         
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 main::after{
